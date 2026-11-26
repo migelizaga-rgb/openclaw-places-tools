@@ -4,7 +4,12 @@
   "description": "Google Places API tools for OpenClaw",
   "type": "module",
   "main": "dist/index.js",
-  "files": ["dist", "openclaw.plugin.json", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "openclaw.plugin.json",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "prepack": "npm run build",
@@ -14,6 +19,25 @@
     "typescript": "^5.7.2"
   },
   "openclaw": {
-    "extensions": ["./dist/index.js"]
-  }
+    "extensions": [
+      "./dist/index.js"
+    ]
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migelizaga-rgb/openclaw-places-tools.git"
+  },
+  "homepage": "https://github.com/migelizaga-rgb/openclaw-places-tools#readme",
+  "bugs": {
+    "url": "https://github.com/migelizaga-rgb/openclaw-places-tools/issues"
+  },
+  "keywords": [
+    "openclaw",
+    "openclaw-plugin",
+    "ai-agents",
+    "llm-tools",
+    "google-places",
+    "maps"
+  ]
 }
