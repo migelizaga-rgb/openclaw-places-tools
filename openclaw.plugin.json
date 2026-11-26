@@ -1,0 +1,13 @@
+{
+  "id": "places-tools",
+  "contracts": {
+    "tools": ["places_search", "places_nearby", "places_details"]
+  },
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "enabled": { "type": "boolean" }
+    }
+  }
+}

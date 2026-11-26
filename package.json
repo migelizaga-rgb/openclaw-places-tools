@@ -1,0 +1,19 @@
+{
+  "name": "openclaw-places-tools",
+  "version": "0.1.0",
+  "description": "Google Places API tools for OpenClaw",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": ["dist", "openclaw.plugin.json", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build",
+    "test": "npm run build && node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "openclaw": {
+    "extensions": ["./dist/index.js"]
+  }
+}
